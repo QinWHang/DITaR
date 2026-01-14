@@ -1,4 +1,3 @@
-# SASRec.py
 import torch
 import torch.nn as nn
 from train_models.models.BaseModel import BaseSeqModel
