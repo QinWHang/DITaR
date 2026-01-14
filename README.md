@@ -14,3 +14,23 @@ We propose DITaR (Dual-view Identification and Targeted Rectification), an effic
 - scikit-learn == 1.6.1     
 
 ## How to run
+### DataProcess
+This directory contains the data preprocessing scripts for the ML-1M, Amazon-Beauty, and Yelp2018 datasets.
+- `process_new.py`: The main script for data preprocessing.
+- `add_poison.py`: The code used to inject noise/contamination into the preprocessed data.
+- `poison.sh`: The shell script to execute the data poisoning process.
+
+### train_models
+
+
+### DualviewIdentification
+
+#### DualviewModelConstruction
+
+#### Identification
+
+### TargetedRectification
+
+#### InfluenceEstimator
+
+#### SGA
