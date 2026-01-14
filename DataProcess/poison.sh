@@ -1,0 +1,11 @@
+python DataProcess/add_poison.py \
+  --dataset ml-1m \
+  --input_dir ./data/processed \
+  --output_dir ./data/poisoned/triple \
+  --embedding_dir ./data/semantic_embeddings \
+  --poison_types repeat semantic swap  \
+  --user_ratio 0.3 \
+  --swap_intensity 0.3 --swap_window_size 11 \
+  --semantic_intensity 0.3 \
+  --repeat_intensity 0.3 --repeat_length 2 --repeat_item_type cold --repeat_mode replace \
+  --seed 42
