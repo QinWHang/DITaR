@@ -1,4 +1,3 @@
-# data.py
 import copy
 import random
 import numpy as np
