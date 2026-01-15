@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-from .base_arch import DualViewArchitecture
+from DualviewConstruct.dual_view_base import DualViewArchitecture
 
 class DualSASRec(DualViewArchitecture):
     """
