@@ -29,7 +29,7 @@ This directory implements the frameworks, data loading, and training logic for t
 ### DualviewIdentification
 Phase 1: Dual-view Identification This phase focuses on modeling a dual-view architecture to detect fake orders within the system.
 #### DualviewModelConstruction
-`DualviewConstruct`: The dual-view model is trained using a contaminated base model. The hyperparameter $\alpha$ is employed to balance the weights between semantic and collaborative views, while $\lambda_c$ (LAMADA_C) adjusts the significance of the recommendation task. 
+`DualviewConstruct`: The dual-view model is trained using a contaminated base model. The hyperparameter $\alpha$ is employed to balance the weights between semantic and collaborative views, while $\lambda_c$ adjusts the significance of the recommendation task. 
 
 Execute `train.sh` to generate the dual-view model.
 #### Identification
